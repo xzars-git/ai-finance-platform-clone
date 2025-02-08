@@ -43,7 +43,7 @@ const HeroSection = () => {
             </Button>
           </Link>
           <Link href='/dashboard'>
-            <Button variant='outline' size='lg' className='px-8' va>
+            <Button variant='outline' size='lg' className='px-8'>
               Watch Demo
             </Button>
           </Link>
@@ -56,6 +56,7 @@ const HeroSection = () => {
               width={1280}
               priority
               className='rounded-lg shadow-2xl border mx-auto'
+              alt='A hero image'
             />
           </div>
         </div>
