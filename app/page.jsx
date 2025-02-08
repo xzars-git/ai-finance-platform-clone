@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import HeroSection from "@/components/ui/hero";
+import HeroSection from "@/components/hero";
 import {
   featuresData,
   howItWorksData,
