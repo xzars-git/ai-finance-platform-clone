@@ -22,10 +22,10 @@ import {
 } from "./ui/select";
 import { Switch } from "./ui/switch";
 import { Button } from "./ui/button";
-import useFetch from "@/hooks/use-fetch";
 import { createAccount } from "@/actions/dashboard";
 import { Loader2 } from "lucide-react";
 import { toast } from "sonner";
+import useFetch from "@/hooks/use-fetch";
 
 const CreateAccountDrawer = ({ children }) => {
   const [open, setOpen] = useState(false);
