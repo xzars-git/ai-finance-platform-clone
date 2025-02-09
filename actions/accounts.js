@@ -44,6 +44,7 @@ export async function updateDefaultAccount(accountId) {
         id: accountId,
         userId: user.id,
       },
+      data: { isDefault: true },
     });
 
     revalidatePath("/dashboard");
